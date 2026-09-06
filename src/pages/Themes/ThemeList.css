@@ -1,0 +1,198 @@
+/* ================================
+   THEME LIST PAGE
+================================ */
+
+.theme-list-page {
+  width: 100%;
+  background: #fff;
+}
+
+
+/* ================================
+   HERO
+================================ */
+
+.theme-list-hero {
+  position: relative;
+  width: 100%;
+  height: 420px;
+  overflow: hidden;
+}
+
+.theme-list-hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.theme-list-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.35);
+  color: #fff;
+}
+
+.theme-list-overlay h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0 0 15px;
+}
+
+.theme-list-overlay p {
+  max-width: 750px;
+  font-size: 18px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+
+/* ================================
+   CONTAINER
+================================ */
+
+.theme-list-container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 60px 25px;
+}
+
+
+/* ================================
+   INTRO CONTENT
+================================ */
+
+.theme-list-content {
+  max-width: 850px;
+  margin-bottom: 35px;
+}
+
+.theme-list-content h2 {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.theme-list-content p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #666;
+  margin: 0;
+}
+
+
+/* ================================
+   COUNT
+================================ */
+
+.theme-list-count {
+  font-size: 16px;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 25px;
+}
+
+
+/* ================================
+   GRID
+================================ */
+
+.theme-list-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+
+/* ================================
+   RESPONSIVE
+================================ */
+
+@media (max-width: 1100px) {
+
+  .theme-list-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .theme-list-overlay h1 {
+    font-size: 42px;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+
+  .theme-list-hero {
+    height: 350px;
+  }
+
+  .theme-list-overlay {
+    padding: 20px;
+  }
+
+  .theme-list-overlay h1 {
+    font-size: 34px;
+  }
+
+  .theme-list-overlay p {
+    font-size: 16px;
+  }
+
+  .theme-list-container {
+    padding: 45px 20px;
+  }
+
+  .theme-list-content h2 {
+    font-size: 28px;
+  }
+
+  .theme-list-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+  }
+
+}
+
+
+@media (max-width: 480px) {
+
+  .theme-list-hero {
+    height: 300px;
+  }
+
+  .theme-list-overlay h1 {
+    font-size: 28px;
+  }
+
+  .theme-list-overlay p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .theme-list-container {
+    padding: 35px 15px;
+  }
+
+  .theme-list-content h2 {
+    font-size: 24px;
+  }
+
+  .theme-list-content p {
+    font-size: 15px;
+  }
+
+  .theme-list-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+}

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.default-padding{
+  padding: 50px 0px;
+}
+
+/* ================= HEADING ================= */
+
+.section-header {
+  margin-bottom: 30px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 8px 18px;
+  background: #f4f1ff;
+color: #624dd6;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+.section-header h2 {
+  font-size: 32px;
+  color: #222;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.section-header p {
+  max-width: 720px;
+  margin: auto;
+  color: #666;
+  line-height: 1.8;
+  font-size: 16px;
+}

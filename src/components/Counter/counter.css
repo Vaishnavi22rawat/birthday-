@@ -1,0 +1,138 @@
+/* counter.css */
+
+.counter-section {
+  width: 100%;
+  position: relative;
+  
+}
+
+.counter-wrapper {
+  position: relative;
+
+  width: 100%;
+  padding: 100px 40px;
+background-image:
+linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.35)),
+url("https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?q=80&w=1600&auto=format&fit=crop");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  overflow: hidden;
+}
+
+.counter-overlay {
+  position: absolute;
+  inset: 0;
+}
+
+.counter-container {
+  position: relative;
+  z-index: 2;
+
+  max-width: 1300px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.counter-card {
+  min-height: 280px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  padding: 20px 25px;
+
+  border-radius: 30px;
+
+  background: rgba(255, 255, 255, 0.08);
+
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+  backdrop-filter: blur(14px);
+
+  transition: all 0.35s ease;
+}
+
+.counter-card:hover {
+  transform: translateY(-10px);
+
+  background: rgba(255, 255, 255, 0.14);
+
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35);
+}
+
+.counter-icon {
+  width: 75px;
+  height: 75px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  margin-bottom: 25px;
+
+  font-size: 35px;
+  color: white;
+
+  background: linear-gradient(135deg, #ff4fd8, #7b61ff);
+
+  box-shadow: 0 10px 30px rgba(123, 97, 255, 0.4);
+}
+
+.counter-card h2 {
+  font-size: 32px;
+  font-weight: 800;
+
+  color: white;
+
+  margin-bottom: 12px;
+}
+
+.counter-card p {
+  font-size: 20px;
+  font-weight: 500;
+
+  color: rgba(255, 255, 255, 0.92);
+}
+
+/* Tablet */
+
+@media (max-width: 1024px) {
+  .counter-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 640px) {
+  .counter-wrapper {
+    padding: 70px 20px;
+  }
+
+  .counter-container {
+    grid-template-columns: 1fr;
+  }
+
+  .counter-card {
+    min-height: 240px;
+  }
+
+  .counter-card h2 {
+    font-size: 40px;
+  }
+
+  .counter-card p {
+    font-size: 18px;
+  }
+}

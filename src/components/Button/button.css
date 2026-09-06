@@ -1,0 +1,233 @@
+.floating-buttons {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+/* =========================
+   CONTACT WRAPPER
+========================= */
+
+.contact-wrapper {
+  position: relative;
+}
+
+/* =========================
+   MAIN BUTTON
+========================= */
+
+.contact-btn {
+  width: 58px;
+  height: 58px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  border-radius: 50%;
+
+  background: #8d67c8;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 22px;
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, .18);
+
+  transition: .35s ease;
+
+  animation: pulse 2s infinite;
+}
+
+.contact-btn:hover {
+  transform: scale(1.08);
+}
+
+.contact-btn.active {
+  animation: none;
+  transform: rotate(180deg);
+}
+
+/* =========================
+   CONTACT MENU
+========================= */
+
+.contact-menu {
+  position: absolute;
+
+  bottom: 72px;
+  right: 3px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+
+  transform: translateY(20px);
+
+  transition: .35s ease;
+}
+
+.contact-menu.show {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+
+  transform: translateY(0);
+}
+
+/* =========================
+   MENU BUTTONS
+========================= */
+
+.contact-menu a {
+  width: 52px;
+  height: 52px;
+
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-decoration: none;
+
+  color: white;
+
+  font-size: 22px;
+
+  box-shadow: 0 8px 20px rgba(0,0,0,.18);
+
+  transition: .3s ease;
+
+  opacity: 0;
+
+  transform: scale(.5) translateY(20px);
+}
+
+/* Open Animation */
+
+.contact-menu.show a {
+  opacity: 1;
+  transform: scale(1) translateY(0);
+}
+
+/* Stagger */
+
+.contact-menu.show .call-btn {
+  transition-delay: .05s;
+}
+
+.contact-menu.show .whatsapp-btn {
+  transition-delay: .12s;
+}
+
+/* Hover */
+
+.contact-menu a:hover {
+  transform: scale(1.12);
+}
+
+/* Colors */
+
+.call-btn {
+  background: linear-gradient(135deg,#ff8c42,#ff5a1f);
+}
+
+.whatsapp-btn {
+  background: #25D366;
+}
+
+/* =========================
+   SCROLL TOP
+========================= */
+
+.scroll-top-btn {
+
+  width:58px;
+  height:58px;
+
+  border:none;
+  outline:none;
+
+  border-radius:50%;
+
+  cursor:pointer;
+
+  background:#ff5c63;
+  color:white;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  font-size:22px;
+
+  box-shadow:0 10px 25px rgba(0,0,0,.18);
+
+  transition:.3s;
+}
+
+.scroll-top-btn:hover{
+    transform:translateY(-5px);
+}
+
+/* =========================
+   PULSE
+========================= */
+
+@keyframes pulse{
+
+0%{
+transform:scale(1);
+}
+
+50%{
+transform:scale(1.08);
+}
+
+100%{
+transform:scale(1);
+}
+
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media(max-width:768px){
+
+.floating-buttons{
+right:15px;
+bottom:15px;
+}
+
+.contact-btn,
+.scroll-top-btn{
+
+width:54px;
+height:54px;
+
+}
+
+.contact-menu a{
+
+width:50px;
+height:50px;
+
+font-size:20px;
+
+}
+
+}

@@ -1,0 +1,42 @@
+.multicolor-line {
+  display: flex;
+  width: 100%;
+  height: 5px;
+}
+
+.segment {
+  flex: 1;
+  height: 100%;
+}
+
+.segment-1 {
+  background-color: #ff7f50;
+}
+
+.segment-2 {
+  background-color: #6a5acd;
+}
+
+.segment-3 {
+  background-color: #3cb371;
+}
+
+.segment-4 {
+  background-color: #ff1493;
+}
+
+.segment-5 {
+  background-color: #1e90ff;
+}
+
+.segment-6 {
+  background-color: #ffd700;
+}
+
+.segment-7 {
+  background-color: #8a2be2;
+}
+
+.segment-8 {
+  background-color: #ff4500;
+}

@@ -1,0 +1,310 @@
+.container{
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 20px;
+}
+/* HERO */
+.detail-hero{
+  position: relative;
+  height: 500px;
+}
+
+.detail-hero img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.detail-overlay{
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail-overlay h1{
+  color: white;
+  font-size: 52px;
+  text-align: center;
+}
+
+/* BREADCRUMB */
+.breadcrumb-wrap{
+  background: #fff;
+  padding: 18px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.breadcrumb{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.breadcrumb a{
+  text-decoration: none;
+  color: #ff4b7d;
+  font-weight: 600;
+}
+
+.breadcrumb p{
+  color: #666;
+}
+/* ROW */
+
+.detail-row{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.detail-image img{
+  width: 100%;
+  border-radius: 24px;
+}
+
+.detail-text .tag{
+  background: #ffe6ee;
+  color: #ff4b7d;
+  padding: 8px 16px;
+  border-radius: 40px;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.detail-text h2{
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #1d2736;
+}
+
+.detail-text p{
+  /* color: #666; */
+  margin-bottom: 15px;
+  line-height: 1.8;
+}
+
+/* GALLERY */
+.gallery-section{
+  padding: 50px 0;
+  /* background: #f8f8f8; */
+}
+
+.section-header{
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.section-header h2{
+  font-size: 40px;
+}
+
+.gallery-grid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+
+.gallery-item{
+  overflow: hidden;
+  border-radius: 24px;
+}
+
+.gallery-item img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.big{
+  grid-row: span 2;
+  height: 600px;
+}
+
+.wide{
+  grid-column: span 2;
+  height: 280px;
+}
+
+/* FAQ VIDEO */
+
+.faq-video-section {
+  padding: 60px 0;
+}
+
+.faq-video-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: start;
+}
+
+.faq-box h2 {
+  font-size: 38px;
+  margin-bottom: 30px;
+}
+
+.faq-item {
+  border-radius: 18px;
+  background: #f8f8f8;
+  margin-bottom: 18px;
+  overflow: hidden;
+}
+
+.faq-question {
+  width: 100%;
+  border: none;
+  background: transparent;
+  padding: 20px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  color: #1d2736;
+  text-align: left;
+}
+
+.faq-question span {
+  flex: 1;
+  padding-right: 15px;
+}
+
+.faq-question svg {
+  font-size: 15px;
+  color: #f39c12;
+}
+
+.faq-answer {
+  padding: 0 24px 20px;
+}
+
+.faq-answer p {
+  margin: 0;
+  color: #666;
+  line-height: 1.8;
+}
+
+.video-box iframe {
+  width: 100%;
+  border-radius: 20px;
+}
+
+@media (max-width: 991px) {
+  .faq-video-wrap {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* EXPLORE */
+.explore-section {
+  padding: 50px 0;
+}
+
+.explore-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.explore-header h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.explore-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.explore-card {
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  text-decoration: none;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease;
+}
+
+.explore-card:hover {
+  transform: translateY(-5px);
+}
+
+.explore-image {
+  height: 250px;
+  overflow: hidden;
+}
+
+.explore-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.explore-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.explore-content h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #222;
+  margin: 0;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:992px){
+  .detail-row,
+  .faq-video-wrap{
+    grid-template-columns: 1fr;
+  }
+
+  .reverse{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .gallery-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .wide{
+    grid-column: span 1;
+  }
+
+}
+
+@media(max-width:768px){
+  
+  .detail-overlay h1{
+    font-size: 34px;
+    padding: 0 20px;
+  }
+
+  .detail-text h2,
+  .faq-box h2,
+  .section-header h2{
+    font-size: 28px;
+  }
+
+  .gallery-grid{
+    grid-template-columns: 1fr;
+  }
+
+  .big{
+    height: auto;
+    grid-row: span 1;
+  }
+
+}
