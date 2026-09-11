@@ -1,12 +1,17 @@
-import jengaBanner from "../../assets/games/jenga-game/jenga-game-banner.png";
+import Banner from "../../assets/Games/jenga-game/jenga-game-banner.png";
 
-import jengaImg1 from "../../assets/games/jenga-game/jenga-game-on-rental.jpg";
-import jengaImg2 from "../../assets/games/jenga-game/jenga-game-on-rent.webp";
+import Img1 from "../../assets/Games/jenga-game/jenga-game-on-rental.jpg";
 
-import gallery1 from "../../assets/games/jenga-game/jenga-game-for-hire.webp";
-import gallery2 from "../../assets/games/jenga-game/jenga-for-events.webp";
-import gallery3 from "../../assets/games/jenga-game/hire-jenga-game-on-rent.webp";
-import gallery4 from "../../assets/games/jenga-game/jenga-game-for-rent.webp";
+import Img2 from "../../assets/Games/jenga-game/jenga-game-on-rent.webp";
+
+import gallery1 from "../../assets/Games/jenga-game/jenga-game-for-hire.webp";
+
+import gallery2 from "../../assets/Games/jenga-game/jenga-for-events.webp";
+
+import gallery3 from "../../assets/Games/jenga-game/hire-jenga-game-on-rent.webp";
+
+import gallery4 from "../../assets/Games/jenga-game/jenga-game-for-events.jpg";
+
 
 const jengaGame = {
   id: 3,
@@ -15,52 +20,87 @@ const jengaGame = {
 
   slug: "jenga-game-on-rent-delhi",
 
-  banner: jengaBanner,
+  category: "Games",
 
-  image: jengaImg1,
+  categoryPath: "/games-activity-for-event",
+
+  exploreTitle: "Jenga Game",
+
+  seo: {
+    title: "Jenga Game On Rent In Delhi | Gurgaon | Noida | Faridabad",
+
+    description:
+      "We provide Jenga Game on rent in Delhi, Gurgaon, Noida, Faridabad and nearby locations for birthday parties, corporate events, school functions, exhibitions, carnivals and other celebrations.",
+
+    keywords: "",
+
+    image: Img1,
+
+    ratingValue: "4.9",
+
+    ratingCount: "1766",
+  },
+
+  banner: Banner,
+
+  image: Img1,
 
   sections: [
     {
-      title: "Jenga Game On Rent In Delhi",
+      layout: "text-image",
 
-      image: jengaImg1,
+      image: Img1,
 
-      description: [
-        "We provide Jenga Game on rent in Delhi, Gurgaon, Noida, Faridabad, and nearby locations for birthday parties, corporate events, school functions, exhibitions, carnivals, weddings, and other celebrations.",
+      content: [
+        {
+          heading: "Jenga Game On Rent",
 
-        "Jenga is one of the most popular wooden block games that tests patience, concentration, balance, and strategy. The game is simple to understand and can be enjoyed by both children and adults.",
+          borderTop: false,
 
-        "The game consists of 54 wooden blocks stacked into a tower. Each player removes one block at a time from any level of the tower and carefully places it on the top without causing the tower to collapse.",
+         description: [
+          `<strong>Jenga Game on Rent in Delhi, Gurgaon, Noida, Faridabad, South Delhi.</strong> The original wood block game. These games are for fun, parties, and events. Most importantly, we have different sizes of Jenga games available.`,
 
-        "As the game progresses, the tower becomes increasingly unstable, making every move more exciting and challenging. The suspense keeps participants and spectators engaged throughout the game.",
+          `To begin with, arrange all the blocks, then pull one block from inside and put it on top of the tower. Next, repeat until you complete the process. Be careful — don’t let the block fall. Finally, the last player who stacks the block without making the tower fall will win the game. Any number of players can play this game. <strong>Jenga Game For Hire.</strong>`,
 
-        "Jenga is an excellent choice for birthday parties, school events, family gatherings, exhibitions, and corporate team-building activities because it encourages interaction and friendly competition.",
+          `Since the Jenga game can be played by children above 10 years, who love to play exciting games with some tricks. You can play the Jenga game anywhere and at any place. Just pack the game and get ready to move to the party. <strong>Jenga Game Rental near me, Gurgaon.</strong>`,
 
-        "Our Giant Jenga sets are made using high-quality wooden blocks with a smooth finish, ensuring safe and enjoyable gameplay for all participants.",
+          `Hence, Jenga is a game of physical and mental skill. Built on the simple premise of stacking blocks, Jenga engages players of all ages across all cultures. Jenga’s success rests on its solid play value. <strong>Jenga Game For Hire, Gurugram.</strong>`,
 
-        "The game requires very little space, can be installed quickly, and is suitable for both indoor and outdoor venues."
+          `Moreover, players take turns to remove a block from a tower and balance it on top, creating a taller and increasingly unstable structure as the game progresses. <strong>Giant Jenga game on rent in Delhi.</strong>`,
+        ],
+        },
       ],
     },
 
     {
-      title: "Giant Jenga Game For Birthday Parties & Events",
+      layout: "image-text",
 
-      image: jengaImg2,
+      image: Img2,
 
-      description: [
-        "Giant Jenga is a fun-filled interactive game where players take turns removing one wooden block from the tower and placing it on top. The player who causes the tower to fall loses the game.",
+      content: [
+        {
+          heading: "Jenga Game Rental In Gurgaon, Delhi",
 
-        "Only one hand should be used while removing a block, making the game more challenging and exciting for every participant.",
+          borderTop: false,
 
-        "Players may gently test different blocks before selecting one, but any block that has been moved must either be returned or completely removed before touching another block.",
+          description: [
+            `<strong>Player</strong> – Jenga game has two or more players who can play the game.`,
 
-        "Each successful move makes the tower taller and more unstable, increasing the excitement with every round. This keeps guests entertained throughout the event.",
+            `<strong>Jenga Rules</strong> – Jenga is played with 54 wooden blocks. Interestingly, the blocks have small and hardwood, random variations from these dimensions, so that they create imperfections in the stacking process and provide additional challenges to the game. <strong>Jenga Game On Rent in Noida.</strong>`,
 
-        "Jenga is suitable for birthday parties, school functions, exhibitions, mall activations, family events, weddings, corporate events, and promotional activities.",
+            `To begin with, once the tower is built, the person who built the tower gets the first move. Moving in Jenga consists of taking one and only one block from any level of the tower and placing it on the topmost level to complete it. <strong>Giant Jenga game on rent in Gurugram.</strong>`,
 
-        "The game also helps improve concentration, hand-eye coordination, patience, decision-making skills, and teamwork while providing endless entertainment.",
+            `Basically, only one hand should be used at a time when taking blocks from the tower. Blocks may be bumped to find a loose block that will not disturb the rest of the tower. Any block that is moved out of place must be returned to its original location before removing another block. <strong>Jenga Game For Hire in Noida.</strong>`,
 
-        "For an even more engaging event experience, Jenga can be combined with Air Hockey, Foosball Table, Connect 4, Snake & Ladder, Bowling Alley, Dart Games, Ring Toss, and many other interactive games available on rent."
+            `Furthermore, the turn ends when the next person to move touches the tower or after ten seconds, whichever occurs first. The game ends when the tower falls, or if any piece falls from the tower other than the piece being knocked out and moved to the top. <strong>Jenga Game On Rent in Chhatarpur.</strong>`,
+
+            `The winner is the last person to successfully remove and place a block. <strong>Jenga Game rental in Delhi-NCR.</strong>`,
+
+            `Moreover, we have some other games like <a href="/snake-ladder-game-rent-delhi/"><strong>Snake & Ladder Game</strong></a>, <a href="/balloon-shooting-game-on-rent/"><strong>Balloon Shooting</strong></a>, Remote Car, <a href="/foosball-table-on-rent-in-delhi/"><strong>Foosball Table</strong></a>, and even more. <strong>Giant Jenga near me rental Gurugram.</strong>`,
+
+            `Blog: <a href="https://best-birthday-planner.blogspot.com/2018/07/games-and-activity.html"><strong>Games & Activity</strong></a>.`,
+          ],
+        },
       ],
     },
   ],
@@ -68,63 +108,58 @@ const jengaGame = {
   gallery: [
     {
       image: gallery1,
-      size: "big",
     },
     {
       image: gallery2,
-      size: "tall",
     },
     {
       image: gallery3,
-      size: "normal",
     },
     {
       image: gallery4,
-      size: "wide",
-    },
+    }
   ],
 
-  video: "",
+  video: "https://youtu.be/nI_E-Dtsn6s?si=dNDuvsxumUiqjQj-",
 
-    faqs: [
-    {
-      question: "What is Jenga Game?",
-      answer:
-        "Jenga is a wooden block stacking game in which players remove one block at a time from a tower and place it on top without making the tower collapse.",
-    },
-    {
-      question: "Who can play Jenga Game?",
-      answer:
-        "Jenga is suitable for children above 6 years, teenagers, and adults. It is an ideal game for families, friends, and corporate team-building activities.",
-    },
-    {
-      question: "Is Giant Jenga suitable for birthday parties?",
-      answer:
-        "Yes, Giant Jenga is one of the most popular party games for birthday celebrations, school events, weddings, carnivals, exhibitions, and corporate events.",
-    },
-    {
-      question: "Can Jenga be played indoors and outdoors?",
-      answer:
-        "Yes. Jenga can be installed both indoors and outdoors on a flat and stable surface.",
-    },
-    {
-      question: "Do you provide Jenga Game on rent in Gurgaon and Noida?",
-      answer:
-        "Yes, we provide Jenga Game on rent in Delhi, Gurgaon, Noida, Faridabad, Ghaziabad, and nearby locations.",
-    },
-    {
-      question: "How much space is required for Giant Jenga?",
-      answer:
-        "The game requires very little space and can easily be installed at homes, banquet halls, schools, offices, malls, and event venues.",
-    },
-  ],
+faqs: [
+  {
+    question: "What’s included in a Jenga rental?",
+    answer:
+      "Hardwood wooden blocks (54 pieces) with variations to make stacking more unpredictable.",
+  },
 
-  relatedGames: [
-    "air-hockey-on-rent-in-delhi",
-    "drop-a-dope-game-on-rent-delhi",
-    "foosball-table-on-rent-in-delhi",
-    "connect-4-game-on-rent",
-  ],
+  {
+    question: "What are the rules?",
+    answer:
+      "On your turn, you remove one block with one hand, place it on top, return the moved blocks, and avoid tower collapse. Turns end after 10 seconds or when you touch elsewhere.",
+  },
+
+  {
+    question: "Who can play?",
+    answer:
+      "Jenga is best for ages 10 and above. Kids, teens, and adults can all take turns, making it great for group play at any event.",
+  },
+
+  {
+    question: "Where can it be used?",
+    answer:
+      "Jenga can be used indoors or outdoors. It is easy to carry, quick to set up, and fits well in most spaces.",
+  },
+
+  {
+    question: "What’s the winning condition?",
+    answer:
+      "The last person to successfully remove and stack a block without collapsing the tower wins.",
+  },
+],
+
+relatedItems: [
+  "drop-a-drop",
+  "buzz-the-wire-game-on-rent",
+  "foosball-table-game-on-rent",
+  "connect-4-game-on-rent",
+],
 };
 
 export default jengaGame;

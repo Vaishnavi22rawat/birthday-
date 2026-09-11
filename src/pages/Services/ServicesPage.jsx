@@ -13,7 +13,7 @@ import { boysThemeData } from "../../data/themesData/boysThemeData";
 import { girlsThemeData } from "../../data/themesData/girlsThemeData";
 import { customizedThemeData } from "../../data/themesData/customizedThemeData";
 
-import bannerImg from "../../assets/banner/games-&-activity-banner.png";
+import bannerImg from "../../assets/banner/services-banner.jpeg";
 import "./ServicesPage.css";
 
 const serviceCategories = [

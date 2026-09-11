@@ -1,12 +1,17 @@
-import airBanner from "../../assets/games/air-hockey/air-hockey-game-banner.jpg";
+import Banner from "../../assets/Games/air-hockey/air-hockey-game-banner.jpg";
 
-import airImg1 from "../../assets/games/air-hockey/air-hockey-game-on-rent-in-delhi.webp";
-import airImg2 from "../../assets/games/air-hockey/air-hockey-on-rent.webp";
+import Img1 from "../../assets/Games/air-hockey/air-hockey-game-on-rent-in-delhi.webp";
 
-import gallery1 from "../../assets/games/air-hockey/air-hockey.webp";
-import gallery2 from "../../assets/games/air-hockey/air-hockey-rental.webp";
-import gallery3 from "../../assets/games/air-hockey/air-hockey-game.webp";
-import gallery4 from "../../assets/games/air-hockey/air-hockey-for-rent.webp";
+import Img2 from "../../assets/Games/air-hockey/air-hockey-on-rent.webp";
+
+import gallery1 from "../../assets/Games/air-hockey/air-hockey.webp";
+
+import gallery2 from "../../assets/Games/air-hockey/air-hockey-rental.webp";
+
+import gallery3 from "../../assets/Games/air-hockey/air-hockey-game.webp";
+
+import gallery4 from "../../assets/Games/air-hockey/air-hockey-for-rent.webp";
+
 
 const airHockey = {
   id: 1,
@@ -15,123 +20,163 @@ const airHockey = {
 
   slug: "air-hockey-on-rent-in-delhi",
 
+  category: "Games",
+
+  categoryPath: "/games-activity-for-event",
+
+  exploreTitle: "Air Hockey",
+
   seo: {
-    title: "Air Hockey on Rent in Delhi | Birthday Planner",
+    title: "Air Hockey On Rent In Delhi | Gurgaon | Faridabad | Noida",
 
     description:
-      "Hire Air Hockey Game in Delhi, Gurgaon and Noida for birthday parties, corporate events and carnivals.",
+      "We provide Air Hockey On Rent in Delhi, Gurgaon, Noida, Faridabad, Agra for Events at very reasonable and affordable price. Hire Air Hockey Table Game Rental.",
 
-    keywords:
-      "",
+    keywords: "",
 
-    image: airBanner,
+    image: Img1,
+
+    ratingValue: "4.9",
+
+    ratingCount: "1766",
   },
 
-  banner: airBanner,
+  banner: Banner,
 
-  image: airImg1,
+  image: Img1,
 
   sections: [
-  {
+    {
+      layout: "text-image",
 
-  layout: "text-image",
+      image: Img1,
 
-  title: "Air Hockey On Rent In Delhi",
+      content: [
+        {
+          heading: "Air Hockey On Rent In Delhi",
 
-  image: airImg1,
+           borderTop: false,
 
-  description: [
-    `Basically we provide <strong>Air Hockey on rent in Delhi, Gurgaon, and Noida</strong> for events at a very reasonable and affordable price.`,
+        description: [
+          `Basically we provide <strong>air hockey on rent in Delhi, Gurgaon, Noida</strong> for events at a very reasonable and affordable price. <strong>Air hockey table on rent in Gurgaon.</strong>`,
 
-    `Air Hockey is one of the most popular arcade games enjoyed by kids aged 5 years and above. The game is played by two players on an air hockey table that uses a low-friction surface. Air is pushed through tiny holes in the table, creating a cushion of air that allows the puck to glide smoothly and quickly.`,
+          `In fact, <strong>Air Hockey</strong> is one of the most popular gaming arcade games enjoyed by kids 5 years and above. This game is played by 2 players on an <strong>AIR HOCKEY TABLE</strong> which is a low friction table made by having air pushed through tiny air holes on the table creating an air cushion which reduces friction and increases speed. <strong>Air hockey on rent in Delhi.</strong>`,
 
-    `The fast-paced nature of the game makes it exciting and highly engaging for players. Air Hockey is a great entertainment option for older kids and teenagers at birthday parties, school events, and corporate functions.`,
+          `Hence, <strong>Air hockey table</strong> can be entertainment for older kids at the party venue. Moreover, most kids love the game for its simplicity and speed which builds up the excitement. <strong>Air hockey game for event in Gurugram.</strong>`,
 
-    `Most children love the game because of its simplicity, speed, and competitive gameplay. It creates excitement among participants and keeps guests entertained throughout the event. You can also explore our <a href="" target="_blank" rel="noopener noreferrer"><strong>Games on Rent Collection</strong></a> for more fun activities.`,
+          `Furthermore, we have excellent quality <strong>air hockey tables</strong> that will suit both kids and adults. Not only that, our air hockey tables are the best in the business and feature a great playing field. <strong>Air hockey table rental in Gurgaon.</strong>`,
 
-    `We provide <strong>excellent quality Air Hockey tables</strong> that are suitable for both kids and adults. Our tables feature a smooth playing surface, sturdy construction, and attractive design.`,
-
-    `The tables also include lipped edges that help keep the puck in play, reducing interruptions during the game. We also offer <a href="" target="_blank" rel="noopener noreferrer"><strong>other arcade games</strong></a> for birthday parties and corporate events.`,
-
-    `Air Hockey is an ideal addition to birthday parties, exhibitions, carnivals, mall activations, and corporate events where interactive entertainment is required. <strong>Book your Air Hockey table today for an unforgettable event experience.</strong>`
-  ],
-},
+          `Hence, Air hockey tables provided by us feature lipped edges which help keep the puck in play, therefore helping prevent the puck from flying out. Additionally, the overhead scoreboard and sound system look fantastic, along with it, because they create a fun, competitive atmosphere and keep your party guests entertained. <strong>Air hockey table on rent in Noida.</strong>`,
+        ],
+        },
+      ],
+    },
 
     {
-
       layout: "image-text",
 
-      title: "Air Hockey Game On rent",
+      image: Img2,
 
-      description: [
-      `Hence, Air Hockey is a game where two players compete against each other by striking a puck across a specially designed air-cushioned table. <strong>Air Hockey on rent in Gurgaon</strong> is an excellent choice for competitive fun and interactive entertainment at parties and events.`,
+      content: [
+        {
+          heading: "Air Hockey Game On Rent",
 
-      `There are some simple rules that make the game enjoyable and easy to understand. A player may stand anywhere on their side of the table but cannot cross the center line. <strong>Air Hockey on rent for birthday parties</strong> is suitable for both kids and adults who enjoy fast-paced challenges.`,
+          borderTop: false,
 
-      `The game is generally played up to seven points, although the scoring limit can be adjusted according to the event requirements. This flexibility makes Air Hockey for events a popular attraction at birthday parties, school functions, exhibitions, and corporate gatherings.`,
+          description: [
+            `Hence, <strong>Air hockey</strong> is a game where two players play against each other on a team that throws once. Therefore, <strong>Air Hockey On Rent in Gudgaon</strong> is the best choice for competitive fun.`,
 
-      `A point is scored whenever the puck enters the opponent's goal. It does not matter whether the puck is hit directly or deflects off the opponent's mallet before entering the goal. This exciting gameplay keeps participants engaged throughout the event.`,
+            `Regarding the rules of the game, there are some basic rules of the air hockey game for players. <strong>Air hockey game on rent</strong> is a great entertainment option for a birthday party.`,
 
-      `Players are not allowed to cross the center line to strike the puck, and they cannot place their mallet on top of the puck. These simple rules ensure fair play and make Air Hockey a safe and enjoyable game for all age groups.`,
+            `To begin with, a player may stand anywhere around the <strong>air hockey</strong> table on the player's side of the center line. However, the player may not stand past that line. Thus, <strong>Air hockey game for hire Chhatarpur.</strong>`,
 
-      `Air Hockey can also be paired with attractions such as <a href="" target="_blank" rel="noopener noreferrer"><strong>Hammer Machine</strong></a>, <a href="" target="_blank" rel="noopener noreferrer"><strong>Wooden Ice Hockey</strong></a>, <a href="" target="_blank" rel="noopener noreferrer"><strong>Toy Catcher Machine</strong></a>, <a href="" target="_blank" rel="noopener noreferrer"><strong>Punching Machine</strong></a>, <a href="" target="_blank" rel="noopener noreferrer"><strong>Trampoline Game</strong></a>, <a href="" target="_blank" rel="noopener noreferrer"><strong>Batak Game</strong></a>, <a href="" target="_blank" rel="noopener noreferrer"><strong>Slick Puck</strong></a>, <a href="" target="_blank" rel="noopener noreferrer"><strong>Snake Pit</strong></a>, and <a href="" target="_blank" rel="noopener noreferrer"><strong>Buttak Pro</strong></a> to create a complete entertainment experience.`,
+            `The game of air hockey is generally played to seven points, although this limit can be changed. As such, an <strong>Air hockey game for event</strong> offers flexible gameplay.`,
+          ],
+        },
+        {
+           heading: "Why Air Hockey is a Hit at Parties",
 
-      `Whether you are planning a birthday celebration, carnival, mall activation, exhibition, or corporate event, <strong>Air Hockey table rental in Delhi</strong> offers an engaging and competitive activity that guests will enjoy throughout the event. Learn more about our <a href="" target="_blank" rel="noopener noreferrer"><strong>event entertainment services</strong></a>.`
+          description: [
+            `Since a point is scored when the puck goes into the other player’s goal. It doesn’t matter if you hit it in or if it bounces off the other player’s mallet and ends up in the goal. <strong>Air Hockey On Rent In Delhi.</strong>`,
+
+            `Moreover, a player cannot cross the center line into the opponent’s half to hit the puck. Similarly, an <strong>Air hockey game for hire</strong> requires players to follow the basic rules of the game. A player is not allowed to place their mallet on top of the puck for any reason. Additionally, an <strong>Air hockey game for rent</strong> is a safe and fun game.`,
+
+            `Some other related games are Hammer Machine, Wooden Ice Hockey, Toy Catcher Machine, Punching Machine, Trampoline Game, Batak Game, Slink Puck, Snake Pit, Buttak Pro, and even more. Thus, you get a full entertainment package with an <strong>Air hockey table rental in Delhi</strong>.`,
+
+            `In addition, some other related games are <a href="/hammer-game-on-rent-delhi/"><strong>Hammer Machine</strong></a>, <a href="/wooden-ice-hockey-game/"><strong>Wooden Ice Hockey</strong></a>, <a href="/toy-catcher-machine-on-rent-in-delhi/"><strong>Toy Catcher Machine</strong></a>, <a href="/games-activity-for-event/"><strong>Punching Machine</strong></a>, <a href="/trampoline-game-on-rent-in-delhi-ncr/"><strong>Trampoline Game</strong></a>, <a href="/batak-game-on-rent/"><strong>Batak Game</strong></a>, <a href="/sling-puck-game/"><strong>Slink Puck</strong></a>, <a href="/snake-pit-game-on-rent/"><strong>Snake Pit</strong></a>, <a href="/buttak-pro-game-on-rent-in-delhi-noida-gurgaon/"><strong>Buttak Pro</strong></a>, and even more. <strong>Air hockey table rental in Delhi.</strong>`,
+
+            `Blog: <a href="https://best-birthday-planner.blogspot.com/2018/07/activity-for-birthday-party.html"><strong>Activity For Birthday Party</strong></a>`,
+          ],
+        },
       ],
-
-       image: airImg2,
     },
   ],
 
-  gallery: [
+gallery: [
   {
     image: gallery1,
-    size: "big",
   },
   {
     image: gallery2,
-    size: "tall",
   },
   {
     image: gallery3,
-    size: "normal",
   },
   {
     image: gallery4,
-    size: "wide",
   },
 ],
 
-  video:"https://www.youtube.com/embed/HGKE9kssPXk?si=CRm8RwtbHsCyHn6m",
+  video:
+    "https://www.youtube.com/embed/HGKE9kssPXk?si=CRm8RwtbHsCyHn6m",
 
   faqs: [
     {
-      question: "What is Air Hockey Game?",
+      question:
+        "1. What age group is suitable for the air hockey game?",
+
       answer:
-        "Air Hockey is a fast arcade game where two players hit a puck on a smooth air-cushioned table to score goals.",
+        "Air hockey is best for kids aged 5 and above, teens, and even adults enjoy it!",
     },
+
     {
-      question: "Is Air Hockey suitable for kids?",
+      question:
+        "2. How much space is needed for setting up the air hockey table?",
+
       answer:
-        "Yes, it is suitable for kids above 5 years as well as adults.",
+        "A clear area of around 6×4 feet is usually enough for comfortable gameplay.",
     },
+
     {
-      question: "Do you provide setup support?",
+      question:
+        "3. Do you deliver and set up the game at the venue?",
+
       answer:
-        "Yes, we provide complete setup and on-site assistance.",
+        "Yes, we provide doorstep delivery, full setup, and pickup after the event.",
     },
+
     {
-      question: "Where can it be installed?",
+      question:
+        "4. Is electricity required for the air hockey table?",
+
       answer:
-        "It can be installed indoors or in covered outdoor spaces.",
+        "Yes, the table runs on power to blow air through the surface for smooth play.",
+    },
+
+    {
+      question:
+        "5. Where do you provide air hockey for rent?",
+
+      answer:
+        "We serve Delhi, Gurgaon, Noida, Faridabad, and the surrounding NCR areas.",
     },
   ],
 
   relatedItems: [
-    "air-hockey-on-rent-in-delhi",
-    "ball-in-bucket-game-on-rent",
-    "jenga-game-on-rent-delhi",
-    "spin-game-on-rent-for-birthday-party-and-event-in-delhi-ncr",
+    "pool-table-on-rent",
+    "table-tennis-on-rent",
+    "beer-pong-table-on-rent",
+    "foosball-table-game-on-rent",
   ],
 };
 
